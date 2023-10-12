@@ -13,7 +13,7 @@ public class Main {
         //play prompt
         System.out.println("Would you like to play? Type [Y/N]: ");
         continueYN = scan.nextLine();
-        continueYN = continueYN.UpperCase();
+        continueYN = continueYN.toUpperCase();
         if (continueYN.equals("Y")) {
             //loops until player 1 gives a valid response(R, P, or S)
             do {
